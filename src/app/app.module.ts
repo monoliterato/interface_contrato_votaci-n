@@ -4,6 +4,10 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { WelcomeModule } from "./welcome/welcome.module";
+import { PicsModule } from "./camera/pics/pics.module";
+//import { PicsComponent } from './camera/pics/pics.component';
+
+
 
 @NgModule({
     bootstrap: [
@@ -12,10 +16,13 @@ import { WelcomeModule } from "./welcome/welcome.module";
     imports: [
         NativeScriptModule,
         AppRoutingModule,
-        WelcomeModule
+        WelcomeModule,
+        PicsModule
     ],
     declarations: [
-        AppComponent
+        AppComponent,
+  
+
     ],
     schemas: [
         NO_ERRORS_SCHEMA
