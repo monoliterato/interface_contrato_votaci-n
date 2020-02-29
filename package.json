@@ -28,6 +28,8 @@
     "ipfs-http-client": "^42.0.0",
     "nativescript-angular": "~8.20.3",
     "nativescript-camera": "^4.5.0",
+    "nativescript-fancyalert": "^3.0.9",
+    "nativescript-geolocation": "^5.1.0",
     "reflect-metadata": "~0.1.12",
     "rxjs": "^6.4.0",
     "tns-core-modules": "~6.3.0",
